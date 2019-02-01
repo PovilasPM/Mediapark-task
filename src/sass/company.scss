@@ -1,0 +1,58 @@
+.company-info {
+    height: 700px;
+    position: relative;
+}
+
+.company-info > img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.568);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-text {
+    text-align: center;
+    color: white;
+    max-width: 700px;
+}
+
+.company-text h2 {
+    font-size: 30px;
+}
+
+.company-text p {
+    font-size: 15px;
+}
+
+.company-text * {
+    padding: .7rem 1rem; 
+}
+
+// .red-box {
+//     height: 500px;
+//     width: 500px;
+//     background-color: red;
+//     position: absolute;
+//     bottom: -10rem;
+//     right: 0;
+// }
+
+@media only screen and (max-width: 1010px) {
+    .company-info {
+        height: 550px;
+    }
+    
+    .company-info > img {
+        height: 550px;
+    }
+}

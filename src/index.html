@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mediapark</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+      
+    <!-- HEADER - NAVBAR -->
+
+    <nav>
+      <a class="logo" href="#">LOGO</a>
+        <p class="toggle-button fa fa-bars" onclick="menuModal()"></p>
+      <div class="link-container">
+        <a href="#">KOTEDŽAI</a>
+        <a href="#">GYVENIMAS SLĖNYJE</a>
+        <a href="#">GALERIJA</a>
+        <a href="#">GYVENTOJAMS</a>
+        <a href="#">NAUJIENOS</a>
+        <a href="#">KONTAKTAI</a>
+      </div>
+    </nav>
+
+    <!-- CAROUSEL (GYVENIMAS SLĖNYJE) -->
+
+    <section class="carousel-container">
+    <h1>GYVENIMAS <strong>SLĖNYJE</strong></h1>
+        <div class="brown-box">
+            <div class="carousel-navigation">
+                <button class="carousel-btn"> <img src="images/left.svg" alt="left arrow"> </button>
+                <button class="carousel-btn"><img src="images/right.svg" alt="right arrow"></button>    
+            </div>
+            <p class="side-text">PRIVALUMAS NR. 1</p>
+            <div class="carousel-content">
+                  <img class="carousel-img" src="images/kids.png" alt="kids-fishing" />
+                  <div class="carousel-text">
+                    <h2>NETOLIESE - <br> <strong>GILUŽIO EŽERAS</strong></h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                      molestie erat vitae odio auctor luctus ac id lorem. Aliquam aliquam
+                      massa et magna suscipit, eu vehicula dui sollicitudin. Phasellus
+                      rhoncus, nulla at molestie vulputate, risus libero maximus nisl,
+                      venenatis aliquet urna ligula sed nisi. Vestibulum id ante dolor.
+                      Donec bibendum sem ullamcorper enim
+                    </p>
+                    <button>KLAUSYTI</button>
+                  </div>
+        </div>
+</div>
+</section>
+
+    <!-- MAP SECTION -->
+
+    <section class="map-container">
+      <div id="map"></div>
+      <h1>VIETA <strong>MIESTE</strong></h1>
+     <div class="table-and-buttons">
+         <div class="button-container">
+             <button> <img src="images/cart.svg" alt="cart"> </button> 
+             <button> <img src="images/book.svg" alt="cart"> </button> 
+             <button> <img src="images/cross.svg" alt="cart"> </button> 
+             <button> <img src="images/face.svg" alt="cart"> </button>
+             <button> <img src="images/dumbell.svg" alt="cart"> </button> 
+             <button> <img src="images/printer.svg" alt="cart"> </button> 
+             <button style="border: none;"> <img src="images/arrows.svg" alt="cart"> </button>
+         </div>
+               
+         <div class="table-container"> 
+             <table class="map-table">
+                 <tr>
+                     <th colspan="2">VAISTINĖS IR GYDYMO ĮSTAIGOS</th>
+                 </tr>
+               <tr>
+                   <td>Poliklinika</td>
+                   <td class="small-cell"><strong>900</strong> </td>
+               </tr>
+               <tr>
+                       <td>Vaistinė "Pilanta"</td>
+                       <td class="small-cell"><strong>600</strong></td>
+                   </tr>
+                   <tr>
+                           <td>Šeimos sveikatos namai "Gyda"</td>
+                           <td class="small-cell"><strong>750</strong></td>
+                       </tr>
+                       <tr>
+                               <td>Marijos vaistinė</td>
+                               <td class="small-cell"><strong>1200</strong></td>
+                           </tr>
+                           <tr>
+                                   <td>Eurovaistinė (prekybos centre "Pupa")</td>
+                                   <td class="small-cell"><strong>800</strong></td>
+                               </tr>
+                               <tr>
+                                       <td style="border: none;">B. Kiselienės sveikatingumo studija</td>
+                                       <td class="small-cell" style=" border: none;"><strong>1200</strong></td>
+                                   </tr>
+             </table>
+         </div>
+     </div>
+    </section>
+
+    <!-- COMPANY CARD -->
+
+    <section class="company-info">
+        <div class="red-box"></div>
+        <img src="images/landscape_grey.jpg" alt="landscape">
+        <div class="overlay">
+            <div class="company-text">
+                <img src="images/dummy-logo.svg" alt="dummy logo">
+                <h2>nekilnojamojo turto vystymas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, possimus dolorem? Asperiores sit, nobis error quae minima nisi accusantium sint labore quam culpa numquam inventore neque reprehenderit modi, distinctio reiciendis!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTS -->
+    
+    <section class="contact-container">
+        <div class="light-box">
+            <h1><strong>KONTAKTAI</strong></h1>
+            <p class="side-text-right">SUSISIEKITE LOREMIPSUM</p>
+            <div class="content">
+                <div class="photos">
+                    <div class="photo-container">
+                <img class="lady-1" src="images/lady1.jpg" alt="lady1">
+                <div class="photo-text lady-1">
+                <p> <strong>Laura Žvaliauskaitė</strong></p>
+                <p>Pardavimų vadybininkė</p>
+                <button> <img src="images/envelope.svg" alt="email">  laura@zvaliauskaite.lt</button>
+                <button> <img src="images/phone.svg" alt="phone"> +370 00 00000</button>
+                </div>
+                </div>
+                
+                <div class="photo-container">
+                    <img class="lady" src="images/lady2.jpg" alt="lady2">
+                    <div class="photo-text">
+                        <p> <strong>Monika Kuzminskaitė</strong></p>
+                        <p>Pardavimų vadybininkė</p>
+                        <button> <img src="images/envelope.svg" alt="email">  laura@zvaliauskaite.lt</button>
+                        <button> <img src="images/phone.svg" alt="phone"> +370 00 00000</button>
+                    </div>
+                    </div>
+                
+                </div>
+            
+                <div class="form-container">
+                    <form class="contact-form" name="meeting" action="/action_page.php" target="_blank" onsubmit="return validateForm()" method="post">
+                        <h2>LAIKO REZERVACIJA SUSITIKIMUI</h2>
+                        <input class="fill-in" type="email" name="email" placeholder="El. paštas"><br>
+                        <input class="fill-in" type="number" name="number" placeholder="Telefonas"><br>
+                        <input class="fill-in" type="datetime-local" name="time" min="2019-02-01T08:00" max="2019-02-28T17:00"><br>
+                        <input class="input-btn" type="submit" value="SIŲSTI">
+                    </form>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <img src="images/dummy-logo.svg" alt="logo">
+        <p>&copy; 2016. Visos teisės saugomos | e-solution: <a href="#">Gaumina</a></p>
+    </footer>
+
+    <!-- JS REFERENCE -->
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

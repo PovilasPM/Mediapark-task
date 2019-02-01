@@ -1,0 +1,43 @@
+
+/* GENERAL STYLIZATION -------------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+h1,
+h2,
+a,
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+
+}
+
+p,
+table {
+    font-family: 'Arial', sans-serif;
+    font-weight: lighter;
+    line-height: 1.8rem;
+}
+
+// MOBILE ----------------------------------------
+// For the mobile browsers not to mess up my font size ------
+
+body, 
+html {
+    -ms-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+  }
+
+  input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
+

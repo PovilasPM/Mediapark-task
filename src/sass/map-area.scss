@@ -1,0 +1,151 @@
+.map-container {
+  background-color: #ece2d1;
+  height: 650px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.map-container h1 {
+  padding: 4rem;
+}
+
+#map {
+  right: 0px;
+  position: absolute;
+  width: 90%;
+  height: 800px;
+  z-index: -1;
+}
+
+// TABLE -------------------------------------------------
+
+.table-and-buttons {
+  margin-left: 40px;
+  width: 430px;
+  height: 500px;
+}
+
+.table-container {
+  display: flex;
+  width: 430px;
+  height: 500px;
+  background-color: #f7f3ec;
+  justify-content: center;
+  align-content: center;
+}
+
+// TABLE BUTTONS --------------
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #584b3b;
+  height: 70px;
+}
+
+.button-container button {
+  background: transparent;
+  border: none;
+  border-right: solid #706455;
+  border-width: 2px;
+  padding: 0 15px;
+  margin: 30px 0 0 0;
+  height: 25px;
+}
+
+.map-container button img {
+  width: 25px;
+}
+
+// TABLE ITSELF - CONTENTS ------------------------
+
+.map-table {
+  color: #63615e;
+  margin: 2rem 0.5rem 0.5rem 0.5rem;
+  width: 320px;
+}
+
+.map-table * {
+  padding: 0.8rem 0rem;
+}
+
+.map-table td {
+  border-bottom: solid #dedad4;
+  border-width: 1px;
+  font-size: 15px;
+}
+
+.small-cell {
+  text-align: right;
+}
+
+@media only screen and (max-width: 1010px) {
+  .map-container {
+    height: 800px;
+  }
+
+  #map {
+    width: 100%;
+  }
+  .table-container {
+    width: 300px;
+    height: 550px;
+    padding: 1rem;
+  }
+  .map-table {
+    margin: 0rem 0.5rem 0.5rem 0.5rem; 
+    width: 250px;
+  }
+
+  .button-container {
+    height: 60px;
+  }
+
+  .table-and-buttons {
+    width: 300px;
+    margin-left: 20px;
+  }
+  .map-container button img {
+    width: 20px;
+  }
+
+  .button-container button {
+    padding: 0px 10px;
+    margin: 25px 0px 5px 0px;
+  }
+  
+  td {
+    max-width: 100px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+
+  
+  .map-container {
+    height: 1200px;
+  }
+  
+  #map {
+    top: 230px;
+    height: 1000px;
+  }
+
+  .map-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .table-and-buttons {
+    margin: 0rem 4rem;
+    margin-bottom: 33rem;
+  }
+
+  .map-container h1 {
+    padding: 0rem 5.1rem 2rem 5.1rem;
+  }
+
+}

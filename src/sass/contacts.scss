@@ -1,0 +1,223 @@
+.contact-container {
+  background-color: #f7f3ec;
+  height: 750px;
+}
+
+.light-box {
+  margin-top: 5rem;
+  background-color: #ece2d1;
+  height: 550px;
+  width: 90%;
+  float: left;
+  position: relative;
+}
+
+.side-text-right {
+  align-self: center;
+  transform: rotate(-90deg);
+  letter-spacing: 5px;
+  color: #707070;
+  position: absolute;
+  height: 10%;
+  right: -13rem;
+  top: 15rem;
+  font-size: 12px;
+}
+
+.light-box h1 {
+  position: absolute;
+  top: 5rem;
+  right: 52rem; 
+}
+
+.contact-container h2 {
+  color: #f7f3ec;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.content {
+  padding-left: 5rem;
+  position: absolute;
+  display: flex;
+  right: 4rem;
+  top: 4rem;
+  width: 100%;
+  max-width: 1100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// FORM --------------------------------------- >
+
+.form-container {
+  background-color: #584b3b;
+  width: 420px;
+  flex-shrink: 0;
+}
+
+.contact-form {
+  margin: 80px 60px;
+}
+
+.contact-form * {
+  margin: 1rem 0rem;
+}
+
+.fill-in {
+  padding-bottom: 0.5rem;
+  background: transparent;
+  color: #ada79f;
+  width: 100%;
+  border: none;
+  border-bottom: solid #716658;
+  border-width: 1px;
+}
+
+.input-btn {
+  margin-top: 3.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.7rem 1.7rem;
+  background-color: #879f55;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+
+form input {
+  border-radius: 0;
+}
+
+// PHOTO FORMATING --------------------- >
+
+.photos {
+  margin: 0rem 2rem;
+}
+
+.photo-container {
+  position: relative;
+  display: inline-block;
+  margin: 0rem 0.5rem;
+}
+
+.lady-1 {
+  margin-bottom: 2rem;
+}
+
+.photo-text {
+  position: absolute;
+  padding: 0.5rem;
+  bottom: 4px;
+  background-color: rgba(255, 255, 255, 0.795);
+}
+
+.photo-text * {
+  padding: 0.1rem;
+}
+
+.photo-text button {
+  background: transparent;
+  border: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .light-box {
+    width: 100%;
+  }
+  
+  .content {
+    right: 5rem; 
+  }
+  .side-text-right {
+    right: -6.5rem;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .contact-container {
+    height: 950px;
+  }
+
+  .light-box h1 {
+    right: 38rem; 
+    top: 3rem;
+  }
+
+  .form-container {
+    margin-bottom: 10rem;
+  }
+
+  .photos {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .lady-1 {
+    margin-bottom: 1rem;
+  }
+  .photo-container {
+    margin: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .light-box h1 {
+    right: 34rem; 
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  .light-box {
+    margin-top: 0;
+  }
+  
+  .light-box h1 {
+    position: static;
+    text-align: center;
+    margin: auto;
+    padding: 2rem 0;
+
+  }
+
+  .contact-container {
+    height: 1150px;
+  }
+  .content {
+    margin-top: -5rem;
+    padding-left: 0rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: static;
+  }
+  .photos {
+    order: 1;
+  }
+
+  .contact-form {
+    margin: 80px 30px;
+  }
+
+  .form-container {
+    margin-bottom: 0rem;
+    margin-top: 6rem;
+    width: 310px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+ .contact-container {
+   height: 1450px;
+ }
+
+ .photo-container {
+   margin: 0 2rem;
+ }
+
+  .side-text-right {
+    display: none;
+  }
+}
+
